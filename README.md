@@ -1,13 +1,13 @@
 <p align="center"><img src="https://image.flaticon.com/icons/svg/1066/1066419.svg" width="175"></p>
-<h1 align="center">Accept multiple request at once</h1>
+<h1 align="center">Accept multiple requests at once</h1>
 
-Well I recently wanted to follow everyone everyone whom my friend follows. But it was quite boring to go through the list and click on follow button. So I decided to something like this.
+I recently wanted to follow everyone whom my friends follow. But it was quite boring to go through the list and click on the `Follow` button. So I decided to do something like this.
 
-### Follow multiple GitHub users at once 
+### Follow multiple GitHub users at once
 
-- Go to `Inspect` in your browser 
-- Go to followers page
-- Run this command on console 
+- Go to `Inspect` in your browser
+- Go to the **Followers** page
+- Run this command on console
 
 ```javascript
 var temp = document.getElementsByClassName('btn-sm');
@@ -16,11 +16,11 @@ for(let i = 0; i<temp.length; i+=2) {
 }
 ```
 
-![Github Follow](./src/github.png)
+![GitHub Follow](./src/github.png)
 
-### Accepting Multiple Connections on Linkedin 
-- Go to `Inspect` in your browser 
-- Go to your connection's page
+### Accepting multiple connections on LinkedIn
+- Go to `Inspect` in your browser
+- Go to the **My Network** page
 - Run this command on console
 
 ```javascript
@@ -30,7 +30,7 @@ for(let i = 0; i<temp.length; i++) {
 }
 ```
 
-![Linkedin Connections](./src/linkedin.png)
+![LinkedIn Connections](./src/linkedin.png)
 
 ## Thanks for reading 😄
 
